@@ -1,0 +1,107 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F8FAFC; /* Soft White */
+    color: #1E293B; /* Charcoal */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Section */
+#headerdiv {
+    text-align: center;
+    background-color: #CBD5E1; /* Muted Gray-Blue */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#headerdiv h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4F46E5; /* Royal Indigo */
+    margin-bottom: 5px;
+}
+
+#headerdiv p a {
+    color: #F59E0B; /* Warm Gold */
+    text-decoration: none;
+}
+
+#headerdiv p a:hover {
+    text-decoration: underline;
+}
+
+/* Table Layout for Profile Section */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border-spacing: 20px;
+}
+
+/* Making the profile image responsive */
+.responsiveImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive Profile Section */
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        text-align: center;
+    }
+    
+    .container img {
+        display: block;
+        margin: 0 auto 10px;
+    }
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4F46E5; /* Royal Indigo */
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Links */
+a {
+    color: #4F46E5; /* Royal Indigo */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #CBD5E1; /* Muted Gray-Blue */
+    color: #1E293B;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 20px;
+}
